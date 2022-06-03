@@ -14,7 +14,7 @@ abstract class DeeparPlatform extends PlatformInterface {
   ///
   /// Defaults to [MethodChannelDeepar].
   static DeeparPlatform get instance => _instance;
-  
+
   /// Platform-specific implementations should set this with their own
   /// platform-specific class that extends [DeeparPlatform] when
   /// they register themselves.

@@ -5,7 +5,6 @@
 // platforms in the `pubspec.yaml` at
 // https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
 
-
 import 'package:deepar_platform_interface/deepar_platform_interface.dart';
 
 class Deepar {

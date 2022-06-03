@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 
 import 'deepar_platform_interface.dart';
 
-
 /// An implementation of [DeeparPlatform] that uses method channels.
 class MethodChannelDeepar extends DeeparPlatform {
   /// The method channel used to interact with the native platform.
@@ -12,7 +11,8 @@ class MethodChannelDeepar extends DeeparPlatform {
 
   @override
   Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
+    final version =
+        await methodChannel.invokeMethod<String>('getPlatformVersion');
     return version;
   }
 }

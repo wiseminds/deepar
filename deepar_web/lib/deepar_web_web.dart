@@ -7,7 +7,6 @@ import 'dart:html' as html show window;
 import 'package:deepar_platform_interface/deepar_platform_interface.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
-
 /// A web implementation of the DeeparWebPlatform of the DeeparWeb plugin.
 class DeeparWebWeb extends DeeparPlatform {
   /// Constructs a DeeparWebWeb

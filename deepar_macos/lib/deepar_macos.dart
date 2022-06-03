@@ -1,5 +1,3 @@
-
-
 import 'package:deepar_platform_interface/deepar_platform_interface.dart';
 
 class DeeparMacos implements DeeparPlatform {
