@@ -1,4 +1,4 @@
-group 'com.example.deepar_android'
+group 'com.wiseminds.deepar.example'
 version '1.0-SNAPSHOT'
 
 buildscript {

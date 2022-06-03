@@ -1,4 +1,4 @@
-package com.example.deepar_android
+package com.wiseminds.deepar.example
 
 import androidx.annotation.NonNull
 
