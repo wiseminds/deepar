@@ -1,8 +1,8 @@
+import 'package:deepar_platform_interface/deepar_method_channel.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:deepar/deepar.dart';
-import 'package:deepar/deepar_platform_interface.dart';
-import 'package:deepar/deepar_method_channel.dart';
+import 'package:deepar/deepar.dart'; 
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+import 'package:deepar_platform_interface/deepar_platform_interface.dart';
 
 class MockDeeparPlatform 
     with MockPlatformInterfaceMixin

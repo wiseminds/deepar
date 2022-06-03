@@ -14,8 +14,8 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  deepar: 
-    path: ../deepar    
+  deepar_platform_interface: 
+    path: ../deepar_platform_interface    
 
 dev_dependencies:
   flutter_test:

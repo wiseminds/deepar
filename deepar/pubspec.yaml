@@ -13,6 +13,8 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+  deepar_platform_interface: 
+    path: ../deepar_platform_interface    
   deepar_android: 
     path: ../deepar_android
   deepar_ios: 

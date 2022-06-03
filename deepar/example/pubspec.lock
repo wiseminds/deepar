@@ -78,6 +78,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  deepar_platform_interface:
+    dependency: transitive
+    description:
+      path: "../../deepar_platform_interface"
+      relative: true
+    source: path
+    version: "0.0.1"
   deepar_web:
     dependency: transitive
     description:
