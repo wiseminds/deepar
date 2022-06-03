@@ -3,7 +3,7 @@ import FlutterMacOS
 
 public class DeeparMacosPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "deepar_macos", binaryMessenger: registrar.messenger)
+    let channel = FlutterMethodChannel(name: "com.wiseminds.deepar", binaryMessenger: registrar.messenger)
     let instance = DeeparMacosPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftDeeparIosPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "deepar_ios", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "com.wiseminds.deepar", binaryMessenger: registrar.messenger())
     let instance = SwiftDeeparIosPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

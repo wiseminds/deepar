@@ -17,7 +17,7 @@ class DeeparAndroidPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "deepar_android")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "com.wiseminds.deepar")
     channel.setMethodCallHandler(this)
   }
 

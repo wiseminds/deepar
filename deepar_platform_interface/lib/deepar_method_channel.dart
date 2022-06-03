@@ -7,7 +7,7 @@ import 'deepar_platform_interface.dart';
 class MethodChannelDeepar extends DeeparPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('deepar');
+  final methodChannel = const MethodChannel('com.wiseminds.deepar');
 
   @override
   Future<String?> getPlatformVersion() async {
