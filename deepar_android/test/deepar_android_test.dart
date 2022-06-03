@@ -1,29 +1,28 @@
+import 'package:deepar_platform_interface/deepar_method_channel.dart';
+import 'package:deepar_platform_interface/deepar_platform_interface.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:deepar_android/deepar_android.dart';
-import 'package:deepar_android/deepar_android_platform_interface.dart';
-import 'package:deepar_android/deepar_android_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-class MockDeeparAndroidPlatform 
+class MockDeeparAndroidPlatform
     with MockPlatformInterfaceMixin
-    implements DeeparAndroidPlatform {
-
+    implements DeeparPlatform {
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
 }
 
 void main() {
-  final DeeparAndroidPlatform initialPlatform = DeeparAndroidPlatform.instance;
+  final DeeparPlatform initialPlatform = DeeparPlatform.instance;
 
-  test('$MethodChannelDeeparAndroid is the default instance', () {
-    expect(initialPlatform, isInstanceOf<MethodChannelDeeparAndroid>());
+  test('$MethodChannelDeepar is the default instance', () {
+    expect(initialPlatform, isInstanceOf<MethodChannelDeepar>());
   });
 
   test('getPlatformVersion', () async {
     DeeparAndroid deeparAndroidPlugin = DeeparAndroid();
     MockDeeparAndroidPlatform fakePlatform = MockDeeparAndroidPlatform();
-    DeeparAndroidPlatform.instance = fakePlatform;
-  
+    DeeparPlatform.instance = fakePlatform;
+
     expect(await deeparAndroidPlugin.getPlatformVersion(), '42');
   });
 }

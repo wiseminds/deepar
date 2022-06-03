@@ -1,8 +1,10 @@
 
-import 'deepar_macos_platform_interface.dart';
 
-class DeeparMacos {
+import 'package:deepar_platform_interface/deepar_platform_interface.dart';
+
+class DeeparMacos implements DeeparPlatform {
+  @override
   Future<String?> getPlatformVersion() {
-    return DeeparMacosPlatform.instance.getPlatformVersion();
+    return DeeparPlatform.instance.getPlatformVersion();
   }
 }

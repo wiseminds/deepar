@@ -1,8 +1,10 @@
 
-import 'deepar_ios_platform_interface.dart';
+import 'package:deepar_platform_interface/deepar_platform_interface.dart';
 
-class DeeparIos {
+
+class DeeparIos implements DeeparPlatform {
+  @override
   Future<String?> getPlatformVersion() {
-    return DeeparIosPlatform.instance.getPlatformVersion();
+    return DeeparPlatform.instance.getPlatformVersion();
   }
 }
