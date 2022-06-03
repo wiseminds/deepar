@@ -50,6 +50,34 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  deepar:
+    dependency: transitive
+    description:
+      path: "../../deepar"
+      relative: true
+    source: path
+    version: "0.0.1"
+  deepar_android:
+    dependency: transitive
+    description:
+      path: "../../deepar_android"
+      relative: true
+    source: path
+    version: "0.0.1"
+  deepar_ios:
+    dependency: transitive
+    description:
+      path: "../../deepar_ios"
+      relative: true
+    source: path
+    version: "0.0.1"
+  deepar_macos:
+    dependency: transitive
+    description:
+      path: "../../deepar_macos"
+      relative: true
+    source: path
+    version: "0.0.1"
   deepar_web:
     dependency: "direct main"
     description:

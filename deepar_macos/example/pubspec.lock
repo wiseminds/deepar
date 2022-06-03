@@ -50,10 +50,38 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  deepar:
+    dependency: transitive
+    description:
+      path: "../../deepar"
+      relative: true
+    source: path
+    version: "0.0.1"
+  deepar_android:
+    dependency: transitive
+    description:
+      path: "../../deepar_android"
+      relative: true
+    source: path
+    version: "0.0.1"
+  deepar_ios:
+    dependency: transitive
+    description:
+      path: "../../deepar_ios"
+      relative: true
+    source: path
+    version: "0.0.1"
   deepar_macos:
     dependency: "direct main"
     description:
       path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
+  deepar_web:
+    dependency: transitive
+    description:
+      path: "../../deepar_web"
       relative: true
     source: path
     version: "0.0.1"
@@ -81,6 +109,18 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.4"
   lints:
     dependency: transitive
     description:
